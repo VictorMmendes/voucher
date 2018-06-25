@@ -1,0 +1,61 @@
+body
+{
+    margin: 6%;
+    margin-left: 23%;
+}
+
+body.info
+{
+    margin-left: 30%;
+}
+
+body h2
+{
+    margin: 1%;
+}
+
+body h2 span
+{
+    font-size: 80%;
+}
+
+div.row
+{
+    margin: 3%;
+}
+
+div.row img
+{
+    margin-left: 23%;
+}
+
+input[type="button"], input[type="button"]:focus
+{
+    border-radius: 1%;
+    background-color: black;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+input[type="button"]:hover
+{
+    background-color: #2eb82e;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+input[type="text"], input[type="number"], .input-group-addon
+{
+    border: none;
+    background-color: white;
+    box-shadow:none;
+    border-radius: 1%;
+    border-bottom: 1px solid black;
+}
+
+input[type="text"]:focus, input[type="number"]:focus
+{
+    box-shadow:none;
+    border-bottom: 1px solid black;
+}
